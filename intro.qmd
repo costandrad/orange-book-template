@@ -1,3 +1,15 @@
+---
+title: "Introdução ao Estudo"
+---
+
 # Introdução
 
-Este é o primeiro capítulo do livro. Aqui você pode escrever textos normais, inserir equações ou blocos de código.
+Este parágrafo introduz o capítulo. O texto comum em Markdown funciona perfeitamente tanto na versão web quanto na versão PDF, sem precisar de duplicação.
+
+## Equações com a Sintaxe Nativa do Typst
+
+Se você prefere escrever as equações utilizando estritamente a sintaxe matemática do Typst (com comandos como `frac` e `dot`), você utiliza blocos condicionais separados para garantir que a web não quebre:
+
+$x = \dfrac{-b \pm \sqrt{b^2 - 4ac}}{2a}$
+
+$y = \sin{\left(x^2 - \dfrac{1}{x}\right)}$
