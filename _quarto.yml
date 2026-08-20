@@ -1,0 +1,20 @@
+project:
+  type: book
+
+book:
+  title: "Título do Meu Livro"
+  subtitle: "Criado com Quarto e Orange-Book"
+  author: "Seu Nome"
+  date: "2026"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+  orange-book-typst:
+    toc: true
+    number-sections: true

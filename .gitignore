@@ -1,0 +1,48 @@
+# ==========================
+# Quarto & Typst
+# ==========================
+_site/
+_book/
+.quarto/
+
+# ==========================
+# Python
+# ==========================
+# Ambientes virtuais
+venv/
+.venv/
+env/
+
+# Arquivos de cache e compilados
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Checkpoints do Jupyter Notebook (muito comum usando Quarto)
+.ipynb_checkpoints/
+
+# Empacotamento / Build
+build/
+dist/
+*.egg-info/
+
+# ==========================
+# R
+# ==========================
+# Histórico e workspaces salvos por acidente
+.RData
+.Rhistory
+
+# Configurações locais do RStudio
+.Rproj.user/
+.Rcache/
+
+# ==========================
+# Sistemas Operacionais e IDEs
+# ==========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
