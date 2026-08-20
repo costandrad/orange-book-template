@@ -1,0 +1,32 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Título do Meu Livro",
+    "section": "",
+    "text": "Prefácio\nBem-vindo ao meu livro estilizado com o template Orange-Book via Typst e Quarto.",
+    "crumbs": [
+      "Prefácio"
+    ]
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "1  Introdução",
+    "section": "",
+    "text": "Este é o primeiro capítulo do livro. Aqui você pode escrever textos normais, inserir equações ou blocos de código.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introdução</span>"
+    ]
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "2  Conclusão",
+    "section": "",
+    "text": "Considerações finais do livro.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Conclusão</span>"
+    ]
+  }
+]
