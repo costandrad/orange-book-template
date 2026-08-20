@@ -4,29 +4,39 @@
     "href": "index.html",
     "title": "Título do Meu Livro",
     "section": "",
-    "text": "Prefácio\nBem-vindo ao meu livro estilizado com o template Orange-Book via Typst e Quarto.",
+    "text": "1 Prefácio\nBem-vindo ao meu livro!\n\n\n\n\n\n\nNote\n\n\n\nVocê pode ler este conteúdo online ou baixar a versão completa para impressão.\n\n\n  Baixar versão PDF (Orange Book)",
     "crumbs": [
-      "Prefácio"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Prefácio</span>"
     ]
   },
   {
     "objectID": "intro.html",
     "href": "intro.html",
-    "title": "1  Introdução",
+    "title": "2  Introdução ao Estudo",
     "section": "",
-    "text": "Este é o primeiro capítulo do livro. Aqui você pode escrever textos normais, inserir equações ou blocos de código.",
+    "text": "3 Introdução\nEste parágrafo introduz o capítulo. O texto comum em Markdown funciona perfeitamente tanto na versão web quanto na versão PDF, sem precisar de duplicação.",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introdução</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introdução ao Estudo</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#equações-com-a-sintaxe-nativa-do-typst",
+    "href": "intro.html#equações-com-a-sintaxe-nativa-do-typst",
+    "title": "2  Introdução ao Estudo",
+    "section": "3.1 Equações com a Sintaxe Nativa do Typst",
+    "text": "3.1 Equações com a Sintaxe Nativa do Typst\nSe você prefere escrever as equações utilizando estritamente a sintaxe matemática do Typst (com comandos como frac e dot), você utiliza blocos condicionais separados para garantir que a web não quebre:\n\\(x = \\dfrac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}\\)\n\\(y = \\sin{\\left(x^2 - \\dfrac{1}{x}\\right)}\\)",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introdução ao Estudo</span>"
     ]
   },
   {
     "objectID": "summary.html",
     "href": "summary.html",
-    "title": "2  Conclusão",
+    "title": "3  Conclusão",
     "section": "",
     "text": "Considerações finais do livro.",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Conclusão</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Conclusão</span>"
     ]
   }
 ]
