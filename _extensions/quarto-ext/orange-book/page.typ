@@ -1,11 +1,11 @@
 #set page(
-  paper: $if(papersize)$"$papersize$"$else$"us-letter"$endif$,
+  paper: $if(papersize)$"$papersize$"$else$"a4"$endif$,
 $if(margin-geometry)$
   // Margins handled by marginalia.setup in typst-show.typ AFTER book.with()
 $elseif(margin)$
   margin: ($for(margin/pairs)$$margin.key$: $margin.value$,$endfor$),
 $else$
-  margin: (x: 1.25in, y: 1.25in),
+  margin: (left: 3cm, right: 2cm, top: 3cm, bottom: 2cm),
 $endif$
   numbering: $if(page-numbering)$"$page-numbering$"$else$none$endif$,
   columns: $if(columns)$$columns$$else$1$endif$,

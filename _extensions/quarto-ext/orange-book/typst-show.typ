@@ -67,8 +67,8 @@ $if(margin-geometry)$
     width: $margin-geometry.outer.width$,
     sep: $margin-geometry.outer.separation$,
   ),
-  top: $if(margin.top)$$margin.top$$else$1.25in$endif$,
-  bottom: $if(margin.bottom)$$margin.bottom$$else$1.25in$endif$,
+  top: $if(margin.top)$$margin.top$$else$3cm$endif$,
+  bottom: $if(margin.bottom)$$margin.bottom$$else$2cm$endif$,
   // CRITICAL: Enable book mode for recto/verso awareness
   book: true,
   clearance: $margin-geometry.clearance$,
