@@ -12,21 +12,11 @@
   {
     "objectID": "intro.html",
     "href": "intro.html",
-    "title": "2  Introdução ao Estudo",
+    "title": "2  Introdução",
     "section": "",
-    "text": "3 Introdução\nEste parágrafo introduz o capítulo. O texto comum em Markdown funciona perfeitamente tanto na versão web quanto na versão PDF, sem precisar de duplicação.",
+    "text": "2.1 Equações com a Sintaxe Nativa do Typst\nEste parágrafo introduz o capítulo. O texto comum em Markdown funciona perfeitamente tanto na versão web quanto na versão PDF, sem precisar de duplicação.\nSe você prefere escrever as equações utilizando estritamente a sintaxe matemática do Typst (com comandos como frac e dot), você utiliza blocos condicionais separados para garantir que a web não quebre:\n\\[x = \\dfrac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}\\]\n\\[y = \\sin{\\left(x^2 - \\dfrac{1}{x}\\right)}\\]",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introdução ao Estudo</span>"
-    ]
-  },
-  {
-    "objectID": "intro.html#equações-com-a-sintaxe-nativa-do-typst",
-    "href": "intro.html#equações-com-a-sintaxe-nativa-do-typst",
-    "title": "2  Introdução ao Estudo",
-    "section": "3.1 Equações com a Sintaxe Nativa do Typst",
-    "text": "3.1 Equações com a Sintaxe Nativa do Typst\nSe você prefere escrever as equações utilizando estritamente a sintaxe matemática do Typst (com comandos como frac e dot), você utiliza blocos condicionais separados para garantir que a web não quebre:\n\\(x = \\dfrac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}\\)\n\\(y = \\sin{\\left(x^2 - \\dfrac{1}{x}\\right)}\\)",
-    "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introdução ao Estudo</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introdução</span>"
     ]
   },
   {
